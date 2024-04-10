@@ -1,0 +1,11 @@
+@mixin playfairDisplay($weight:700, $size:42px){
+    font-family: "playfairDisplay", sans-serif;
+    font-weight: $weight;
+    font-size: $size;
+}
+
+@mixin muli($weight:300, $size:16px){
+    font-family: "Muli", sans-serif;
+    font-weight: $weight;
+    font-size: $size;
+}
