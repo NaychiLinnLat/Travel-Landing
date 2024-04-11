@@ -21,3 +21,15 @@
     font-weight: $weight;
     font-size: $size;
 }
+h1,h2,h3,h4,p,a{
+    color: white;
+}
+
+@mixin avatar($size, $circle: false) {
+    width: $size;
+    height: $size;
+  
+    @if $circle {
+      border-radius: math.div($size, 2);
+    }
+  }

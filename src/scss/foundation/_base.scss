@@ -17,6 +17,7 @@ header{
 }
 li{
     list-style: none;
+    @include muli();
 }
 a{
     text-decoration: none;
