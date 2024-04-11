@@ -1,0 +1,33 @@
+.c-btn {
+    @include muli(300, 16px);
+    background-color: $lightyellow;
+    padding: 10px 0;
+  
+    span {
+      padding: 15px;
+  
+    }
+    i {
+      padding: 10px;
+      background-color: $yellow;
+    }
+  }
+
+  .c-disbtn{
+    margin-top: 30px;
+    
+    a{
+        background-color: transparent;
+        border: 1px solid $white;
+    }
+    i{
+        background-color: transparent;
+    }
+  }
+
+  .c-journalsbtn{
+    margin-top: 60px;
+    a{
+        color: #000;
+    }
+  }

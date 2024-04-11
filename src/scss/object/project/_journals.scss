@@ -1,0 +1,71 @@
+.p-journals{
+    color: $white;
+    margin-top: 200px;
+    &__wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title{
+        text-align: center;
+    h2{
+        @include playfairDisplay();
+        margin-bottom: 30px
+        
+    }
+    p{
+        @include muli();
+        margin-bottom: 40px;
+    }
+}
+    
+
+&__cardswrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+&__fb{
+    background-color: $fbcolor;
+    width: 340px;
+    height: 180px;
+    margin-top: -3px;
+    
+    
+}
+&__name{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    padding-left: 30px;
+    span{
+        padding-left: 10px;
+        @include muli (400,14px)
+    }
+}
+p{
+    @include muli(400, 18px);
+    padding-left: 30px;
+    margin-top: 14px
+}
+
+&__date{
+    @include muli(400, 14px);
+    padding-left: 30px;
+    color: $datecolor;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11px;
+    img{
+        padding-left: 177px;
+    }
+}
+}

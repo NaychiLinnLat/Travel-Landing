@@ -1,0 +1,49 @@
+.p-latest{
+    margin-top: 200px;
+    color: $white;
+   &__title{
+    text-align: center;
+    h2{
+        @include playfairDisplay(700, 42px);
+    }
+    p{
+        @include muli(300, 16px);
+        margin-top: 30px;
+    }
+   }
+}
+.p-blogs{
+    display: flex;
+    margin-top: 60px;
+   &__img{
+    width: 100%;
+    height: 363px;
+    background-repeat: no-repeat;
+    position: relative;
+    
+   }
+   &__cards{
+    position: absolute;
+    bottom: 30px;
+    p{
+        @include muli (400, 18px);
+        padding: 0 20px;
+        letter-spacing: 0.1px;
+    }
+   }
+   
+}
+
+
+.card1{
+    background-image: url(../img/latest_blog1.png);
+}
+.card2{
+    background-image: url(../img/latest_blog2.png);
+}
+.card3{
+    background-image: url(../img/latest_blog3.png);
+}
+.card4{
+    background-image: url(../img/latest_blog4.png);
+}
