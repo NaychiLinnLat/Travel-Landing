@@ -36,6 +36,8 @@
           background-color: $bg-color;
           border: 0.5px solid white;
           text-align: center;
+          color: #fff;
+
           &:hover {
             background-color: white;
             color: $bg-color;
@@ -73,6 +75,7 @@
         @include muli(400, 16px);
         padding: 30px 10px;
         margin: 0 10px;
+        color: #fff;
         &:hover {
           border-bottom: 1px solid $yellow;
         }

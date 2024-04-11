@@ -1,15 +1,33 @@
 .c-btn {
-  font-size: 16px;
-  font-weight: 300;
-  background-color: $lightyellow;
-  padding: 10px 0;
+    @include muli(300, 16px);
+    background-color: $lightyellow;
+    padding: 10px 0;
+  
+    span {
+      padding: 15px;
+  
+    }
+    i {
+      padding: 10px;
+      background-color: $yellow;
+    }
+  }
 
-  span {
-    padding: 15px;
-   
+  .c-disbtn{
+    margin-top: 30px;
+    
+    a{
+        background-color: transparent;
+        border: 1px solid $white;
+    }
+    i{
+        background-color: transparent;
+    }
   }
-  i {
-    padding: 10px;
-    background-color: $yellow;
+
+  .c-journalsbtn{
+    margin-top: 60px;
+    a{
+        color: #000;
+    }
   }
-}

@@ -1,18 +1,28 @@
 @import "~slick-carousel/slick/slick.scss";
-@import "./object/utility/mixin";
-@import "./foundation/setting";
-@import "./foundation/base";
-@import "./object/component/btn";
-@import "./object/component/card";
-@import "./foundation/fonts";
+@import "object/utility/mixin";
 @import "./foundation/mediaquery";
-@import "./foundation/reset";
-@import "./layout/footer";
-@import "./layout/header";
-@import "./layout/layout";
+
+//foundation
+@import "foundation/setting";
+@import "foundation/reset";
+@import "foundation/fonts";
+
+//layout
+@import "layout/footer";
+@import "layout/header";
+@import "layout/layout";
+
+//object
+@import "object/component/btn";
+@import "object/component/card";
+//project
+@import "object/project/mainvisual";
+@import "object/project/travelreseach";
+
+@import "object/project/blogs";
+@import "object/project/journals";
+
 @import "./object/project/header";
 @import "./object/project/mainvisual";
 @import "./object/project/about";
 @import "./object/project/gallery";
-// @import "";
-// @import "";
