@@ -2,36 +2,22 @@
     font-family: "playfairDisplay", sans-serif;
     font-weight: $weight;
     font-size: $size;
-    color:white;
 }
 
 @mixin muli($weight:300, $size:16px){
     font-family: "Muli", sans-serif;
     font-weight: $weight;
     font-size: $size;
-    color:white;
 }
 
-@mixin fontStyler($fontsize,$fontweight,$fontfamily){
-    font-size: $fontsize;
-    font-weight: $fontweight;
-    font-family: $fontfamily;
-    }
-    @mixin flexHori-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    }
-    @mixin flexVerti-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    }
-    
-    
-@mixin btn{
-    
+@mixin Poppinsfontfamily($weight:700,$size:22px){
+    font-family: 'poppins',sans-serif;
+    font-weight: $weight;
+    font-size: $size;
+}
+
+@mixin Nunitofontfamily($weight:400,$size:14px){
+    font-family: 'nunito',sans-serif;
+    font-weight: $weight;
+    font-size: $size;
 }
