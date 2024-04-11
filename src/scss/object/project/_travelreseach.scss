@@ -1,13 +1,14 @@
 .l-travelreseach {
     display:flex;
     padding-top:200px;
-    border:1px solid pink;
+   
     background-color: #000;
     align-items: center;
     margin:0 auto;
     justify-content: center;
     width: 100%;
     gap: 50px;
+    padding-bottom: 200px;
     &__contact {
         // padding-bottom:30px;
         h4 {
@@ -15,7 +16,7 @@
             color:#fff;
             // width:50%;
             margin-bottom: 32px;
-            margin-right: 200px;
+            margin-right: 140px;
 
         }
         p {
@@ -27,16 +28,14 @@
     .l-phonecall {
         display: flex;
         justify-content: center;
-      
         gap:114px;
          &__inner {
             width: 100px;  
             border-radius: 50%;
-            border:2px solid  #fff;;
+            border:2px solid  #fff;
             padding: 29px;
             gap: 16px;
-            // justify-content: center;
-            // align-items: center;
+           
             .img-box {
                 a {
                      color:#fff;

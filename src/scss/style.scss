@@ -19,9 +19,5 @@
 
 @import "object/utility/mixin";
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class="l-travelreseach"] {
-      width: 100%;
-    }
-}
+@import "object/project/blogs";
+@import "object/project/journals";
