@@ -1,0 +1,69 @@
+.l-travelreseach {
+    display:flex;
+    padding-top:200px;
+    border:1px solid pink;
+    background-color: #000;
+    align-items: center;
+    margin:0 auto;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    &__contact {
+        // padding-bottom:30px;
+        h4 {
+            @include playfairDisplay(700,34px);
+            color:#fff;
+            // width:50%;
+            margin-bottom: 32px;
+            margin-right: 200px;
+
+        }
+        p {
+            @include muli(400,18px);//to change muli font
+            color: #fff;
+            
+        }
+    }
+    .l-phonecall {
+        display: flex;
+        justify-content: center;
+      
+        gap:114px;
+         &__inner {
+            width: 100px;  
+            border-radius: 50%;
+            border:2px solid  #fff;;
+            padding: 29px;
+            gap: 16px;
+            // justify-content: center;
+            // align-items: center;
+            .img-box {
+                a {
+                     color:#fff;
+                     padding:43px;
+                }
+               
+            }
+            .txt-box {
+                h4 {
+                    @include playfairDisplay(700,34);
+                    color: #fff;
+                    text-align: center;
+                    padding-top: 8px;
+                }
+                p {
+                    @include  muli(300,11px);//change muli font
+                    color: #fff;
+                    text-align: center;
+                    padding-bottom: 5px;
+                    padding-top:7px;
+                }
+                p + p {
+                    @include muli(400,16);//chane muli font
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
