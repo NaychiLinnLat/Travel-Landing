@@ -1,0 +1,38 @@
+.mainvisual {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/logo3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    .mainvisual-inner {
+     padding-left: 140px;
+     @include for-phone{
+        padding:  40px;
+     }
+      &__text {
+        &__title {
+          font-size: 64px;
+          font-weight: 700;
+          @include for-phone{
+            font-size: 44px;
+            font-weight: 500;
+          }
+        }
+        &__desc {
+          font-size: 18px;
+          font-weight: 400;
+          padding: 20px 0;
+          &::before {
+            padding: 0 10px;
+            content: "\2014";
+          }
+        }
+      }
+    }
+  }
+  
