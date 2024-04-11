@@ -15,24 +15,29 @@
         padding:  40px;
      }
       &__text {
+        
         &__title {
-          font-size: 64px;
-          font-weight: 700;
+        
+          @include playfairDisplay(700,64px);
           @include for-phone{
             font-size: 44px;
             font-weight: 500;
           }
         }
         &__desc {
-          font-size: 18px;
-          font-weight: 400;
+        
+          @include muli(300,18px);
           padding: 20px 0;
           &::before {
             padding: 0 10px;
-            content: "\2014";
+            content: "\2014""\2014";
           }
         }
       }
     }
   }
+  .mainvisual-btn{
+  color: #000000;
+    }
+  
   

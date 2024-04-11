@@ -2,19 +2,20 @@
 @import "object/utility/mixin";
 @import "./foundation/mediaquery";
 
+
 //foundation
 @import "foundation/setting";
 @import "foundation/reset";
 @import "foundation/fonts";
-
+//object
+@import "object/component/btn";
+@import "object/component/card";
 //layout
 @import "layout/footer";
 @import "layout/header";
 @import "layout/layout";
 
-//object
-@import "object/component/btn";
-@import "object/component/card";
+
 //project
 @import "object/project/mainvisual";
 @import "object/project/travelreseach";

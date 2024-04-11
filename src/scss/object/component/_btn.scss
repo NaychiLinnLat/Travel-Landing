@@ -1,22 +1,38 @@
 .c-btn {
-    @include muli(300, 16px);
+   font-size: 16px;
+   font-weight: 600;
     background-color: $lightyellow;
     padding: 10px 0;
-  
+
+  text-decoration: none;
     span {
-      padding: 15px;
+    
+     padding: 0 15px;
   
     }
     i {
-      padding: 10px;
+   
+     padding: 10px;
       background-color: $yellow;
     }
+    &:hover{
+      background-color: white;
+      span{
+        background-color: white;
+        color: $yellow;
+      }
+      i{
+        background-color: white;
+        color: $yellow;
+      }
+     }
   }
 
   .c-disbtn{
     margin-top: 30px;
     
     a{
+      text-decoration: none;
         background-color: transparent;
         border: 1px solid $white;
     }
