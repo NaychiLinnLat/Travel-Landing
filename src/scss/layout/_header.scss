@@ -1,0 +1,99 @@
+.l-head-wrapper{
+    padding: 0 140px;
+    background-color: rgba(20, 20, 20, 0.5);
+    border-bottom:1px solid #93A0A7;
+.l-head {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  
+ 
+ 
+    
+    &_logo {
+      a {
+        text-decoration: none;
+        @include playfairDisplay(700, 22px);
+      }
+    }
+    &__listgroup {
+      @include for-phone {
+        display: none;
+      }
+      display: flex;
+      @include for-tablet {
+        display: none;
+      }
+      display: flex;
+      align-items: center;
+      li {
+        margin: 0 15px;
+        padding: 40px 0;
+        &:hover {
+            border-bottom: 1.5px solid $yellow;
+          }
+        a {
+          text-decoration: none;
+          @include poppin(400, 16px);
+          padding: 5px;
+        
+        }
+      }
+    }
+    &-menu {
+        display: none;
+        font-size: 30px;
+        color: white;
+        position: relative;
+        i {
+      
+          border-radius: 50%;
+          cursor: pointer;
+          &:hover {
+            background-color: white;
+            color: $bg-color;
+          }
+        }
+        &-lists {
+          position: absolute;
+          display: none;
+    
+         right: -80px;
+         top: 20px;
+          
+          li {
+            a {
+              display: inline-block;
+              width: 300px;
+              padding: 0 100px;
+              background-color: $bg-color;
+              border: 0.5px solid white;
+              text-align: center;
+              &:hover {
+                background-color: white;
+                color: $bg-color;
+              }
+            }
+          }
+        }
+
+        &-lists.menu-toggler {
+          display: block;
+        }
+        @include for-phone {
+          display: block;
+        }
+        @include for-tablet {
+          display: block;
+        }
+      }
+  }
+}
+  .sticky {
+    background-color: $bg-color;
+    
+  }
+  

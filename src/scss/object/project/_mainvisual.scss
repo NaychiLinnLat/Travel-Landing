@@ -1,7 +1,7 @@
 .mainvisual {
     width: 100%;
     height: 100vh;
-    background: url("../img/logo3.png");
+    background: linear-gradient(rgba(39, 39, 39,0.1),rgba(20, 20, 20,0.9)),url("../img/logo3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,15 +9,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    padding: 50px 0;
     .mainvisual-inner {
-     padding-left: 140px;
+     padding: 140px ;
      @include for-phone{
         padding:  40px;
      }
       &__text {
         
         &__title {
-        
+        line-height: 74px;
           @include playfairDisplay(700,64px);
           @include for-phone{
             font-size: 44px;
@@ -25,7 +26,7 @@
           }
         }
         &__desc {
-        
+          
           @include muli(300,18px);
           padding: 20px 0;
           &::before {
@@ -34,10 +35,16 @@
           }
         }
       }
+      
+     
     }
   }
-  .mainvisual-btn{
-  color: #000000;
-    }
   
+  .mainvisual-inner--btn{
+    margin-top: 60px;
+    .c-btn{
+      color:#0a0d13;
+      @include muli(300,16px);
+    }
+  }
   

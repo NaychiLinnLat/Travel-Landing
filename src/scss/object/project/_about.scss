@@ -20,9 +20,11 @@
     }
 
     &-text {
-      padding: 0 142px;
+      padding:  110px 142px;
+      
 
       @include for-phone {
+
         text-align: center;
         width: 100%;
         padding: 30px 0;
@@ -35,15 +37,15 @@
 
       width: 50%;
       &__title {
+        @include playfairDisplay(400,42px);
         padding-bottom: 30px;
-        font-size: 42px;
-        font-weight: 400px;
+     
       }
       &__desc {
-        font-size: 16px;
-        font-weight: 300;
+      
         padding-bottom: 262px;
         line-height: 30px;
+        @include playfairDisplay(300,16px);
         @include for-phone {
           padding: 40px 40px 60px 40px;
         }
@@ -55,10 +57,11 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: grey;
+        background-color: #2b313c;
         width: 840px;
         text-align: center;
         line-height: 20px;
+        padding: 27px 0;
 
         @include for-phone {
           position: relative;
@@ -94,8 +97,14 @@
             padding: 10px 10px;
             font-size: 42px;
             font-weight: 400;
+            @include playfairDisplay(400,42px);
+            span{
+            font-size: 35px;
+            text-align: center
+            }
           }
           &__title {
+            @include muli(400,18px);
             padding: 10px 10px;
           }
         }
@@ -116,4 +125,12 @@
       }
     }
   }
+}
+.about-btn{
+margin-top: 20px;
+
+    .c-btn{
+      color:#0a0d13;
+      @include muli(300,16px);
+    }
 }

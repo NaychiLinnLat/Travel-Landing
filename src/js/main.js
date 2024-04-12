@@ -2,43 +2,26 @@ import "../scss/style.scss";
 import $ from "jquery";
 import "slick-carousel";
 
-window.addEventListener("scroll", (arg) => {
-  let header = document.querySelector("header");
-  header.classList.toggle("sticky", window.scrollY > 0);
-});
+
+
 
 $('.multiple-items').slick({
-  centerMode: true,
-  centerPadding: '60px',
+
   slidesToShow: 5,
-  variableWidth: true,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    }
-  ]
+  slidesToScroll: 1,
+  prevArrow:".gallery-btn--prev",
+ nextArrow:".gallery-btn--next ",
+ 
+
+  
 });
+
 // $(".multiple-items").slick({
 //     slidesToShow: 5,
-//     slidesToScroll: 2,
+//     slidesToScroll: 1,
 //     mobileFirst: true,
 //   variableWidth: true,
-
+//     arrows:true,
 //     centerMode: false,
 //     infinite: true,
   
@@ -46,7 +29,14 @@ $('.multiple-items').slick({
 
 
 const menuBar = document.querySelector(".menu-bar");
-const toggleNav = document.querySelector(".nav-wrap-menu-lists");
+const toggleNav = document.querySelector(".c-head-menu-lists");
 menuBar.addEventListener("click", () => {
   toggleNav.classList.toggle("menu-toggler");
 });
+
+
+window.addEventListener("scroll", (arg) => {
+  let header = document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
+
