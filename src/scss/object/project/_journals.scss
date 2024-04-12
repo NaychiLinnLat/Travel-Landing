@@ -69,3 +69,14 @@ p{
     }
 }
 }
+.journal-btn{
+    margin-top: 60px;
+
+    .c-btn {
+        &:hover{
+            color: $yellow;
+        }
+    }
+    
+    }
+   
