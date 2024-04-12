@@ -1,5 +1,5 @@
 @mixin playfairDisplay($weight:700, $size:42px){
-    font-family: "playfairDisplay", sans-serif;
+    font-family: "playfairDisplay", serif;
     font-weight: $weight;
     font-size: $size;
 }

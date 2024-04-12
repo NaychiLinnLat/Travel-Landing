@@ -1,26 +1,14 @@
 .p-journals{
     color: $white;
-    margin-top: 200px;
+    margin-top: 150px;
     &__wrap{
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
     }
-    &__title{
-        text-align: center;
-    h2{
-        @include playfairDisplay();
-        margin-bottom: 30px
-        
-    }
-    p{
-        @include muli();
-        margin-bottom: 40px;
-    }
-}
-    
 
 &__cardswrap{
     display: flex;
@@ -34,7 +22,6 @@
 &__fb{
     background-color: $fbcolor;
     width: 340px;
-    height: 180px;
     margin-top: -3px;
     
     
@@ -43,22 +30,21 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
-    padding-left: 30px;
+
     span{
         padding-left: 10px;
-        @include muli (400,14px)
+        @include muli (400,14px);
+        line-height: 24px;
     }
 }
 p{
     @include muli(400, 18px);
-    padding-left: 30px;
-    margin-top: 14px
+    line-height: 28px;
 }
 
 &__date{
     @include muli(400, 14px);
-    padding-left: 30px;
+    line-height: 24px;
     color: $datecolor;
     display: inline-flex;
     align-items: center;
@@ -68,4 +54,7 @@ p{
         padding-left: 177px;
     }
 }
+}
+.fbwrap{
+    padding: 30px;
 }

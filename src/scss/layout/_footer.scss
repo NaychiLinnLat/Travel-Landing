@@ -2,12 +2,9 @@
     max-width: 100%;
     margin: 0 auto;
     background:$bg-color;
-
-    // background:#000;
     
 }
 .l-footer {
-    // width:100%;
    
     background:$bg-color;
         &__list {
@@ -15,8 +12,7 @@
             margin: 0 auto;
             text-align: center;
             padding-top:20px;
-        
-           
+         
                 h4 {
                     @include Poppinsfontfamily();
                     color:#fff;
@@ -26,7 +22,7 @@
                     margin-bottom: 32px;
                 }
                 p {
-                    @include muli (300,14px);//to chane muli 
+                    @include muli (300,14px);
                     color:#fff;
                     margin-top: 40px;
                 }

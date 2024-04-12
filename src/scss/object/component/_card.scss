@@ -1,59 +1,48 @@
-.c-discover{
-    text-align: center;
-    margin-top: 120px;
-    h2{
-        @include playfairDisplay();
-        color: $white;
-        margin-bottom: 30px;
-    }
-    p{
-        @include muli();
-        color: $white;
-        
-    }
+.discover {
+    margin-top: 100px;
 }
-.c-card{
+
+.c-card {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     margin-top: 60px;
-    
+
     &__img {
-        width: 340px;
-        height: 499px;
         position: relative;
-        img{
-            width: 340px;
-            height: 500px;
-        }
+
     }
-    &__txt{
+
+    &__txt {
         position: absolute;
         bottom: -100px;
         color: $white;
         padding: 20px;
-        h2{
-            @include playfairDisplay(700,34px);
+
+        h2 {
+            @include playfairDisplay(700, 34px);
             color: $lightyellow;
-            margin-bottom: 12px;
+            // margin-bottom: 12px;
+            line-height: 44px;
         }
-        p{
+
+        p {
             @include muli(300, 16px);
             letter-spacing: 0.5px;
+            line-height: 24px;
         }
-        a{
+
+        a {
             text-decoration: none;
             color: $white;
         }
     }
-    
 
-    
+
+
 }
 
-.img2{
+.img2 {
     margin-top: 60px;
 }
-
-

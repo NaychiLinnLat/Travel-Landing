@@ -1,24 +1,12 @@
 .p-latest{
     margin-top: 200px;
     color: $white;
-   &__title{
-    text-align: center;
-    h2{
-        @include playfairDisplay(700, 42px);
-    }
-    p{
-        @include muli(300, 16px);
-        margin-top: 30px;
-    }
-   }
 }
 .p-blogs{
     display: flex;
     margin-top: 60px;
 
    &__img{
-    // width: 100%;
-    height: 363px;
     background-repeat: no-repeat;
     position: relative;
     width: 25%;
@@ -35,6 +23,7 @@
         @include muli (400, 18px);
         padding: 0 20px;
         letter-spacing: 0.1px;
+        line-height: 25px;
     }
    }
    
