@@ -31,10 +31,16 @@
         text-align: center;
         gap:114px;
          &__inner {
-            width: 177px;  
+           width: 278px;  
+           height: 278px;
             border-radius: 50%;
             border:1px solid  #fff;
-            padding: 27px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 34px;
+            font-weight: 700;
            
            
             .img-box {

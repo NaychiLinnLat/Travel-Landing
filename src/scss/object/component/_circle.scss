@@ -1,0 +1,11 @@
+@mixin Roundcircle{
+    .c-circle{
+        width: 278px;
+        height: 278px;
+        border-radius: 50%;
+        color: white;
+        @content;
+    }
+  
+    
+}

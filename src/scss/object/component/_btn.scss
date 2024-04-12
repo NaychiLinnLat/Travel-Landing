@@ -14,19 +14,19 @@
   
     }
     i {
-   
-     padding: 10px;
       background-color: $yellow;
+     padding: 10px;
+  
     }
     &:hover{
       background-color: white;
       span{
         background-color: white;
-        color: $yellow;
+        
       }
       i{
         background-color: white;
-        color: $yellow;
+       
       }
      }
   }
@@ -36,11 +36,11 @@
     
     a{
       text-decoration: none;
-        background-color: transparent;
+
         border: 1px solid $white;
     }
     i{
-        background-color: transparent;
+
     }
   }
 
