@@ -15,11 +15,17 @@
 .p-blogs{
     display: flex;
     margin-top: 60px;
+
    &__img{
-    width: 100%;
+    // width: 100%;
     height: 363px;
     background-repeat: no-repeat;
     position: relative;
+    width: 25%;
+    img{
+        width: 100%;
+        height: auto;
+    }
     
    }
    &__cards{
@@ -35,15 +41,15 @@
 }
 
 
-.card1{
-    background-image: url(../img/latest_blog1.png);
-}
-.card2{
-    background-image: url(../img/latest_blog2.png);
-}
-.card3{
-    background-image: url(../img/latest_blog3.png);
-}
-.card4{
-    background-image: url(../img/latest_blog4.png);
-}
+// .card1{
+//     background-image: url(../img/latest_blog1.png);
+// }
+// .card2{
+//     background-image: url(../img/latest_blog2.png);
+// }
+// .card3{
+//     background-image: url(../img/latest_blog3.png);
+// }
+// .card4{
+//     background-image: url(../img/latest_blog4.png);
+// }
